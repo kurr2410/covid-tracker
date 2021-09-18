@@ -1,0 +1,19 @@
+Covid Platform
+    -has many admin
+    -has many candidate
+    calculateRisk(Symptom)
+
+User
+    -name:string
+    -mobile: int
+    -pincode:int
+    -covidPositive:boolean
+
+Admin extends User
+Candidate extends User
+
+Symptom
+    -symptoms[]
+    -travelHistory: boolean
+    -contactWithCovidPositive: boolean
+
